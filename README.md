@@ -24,3 +24,12 @@ OPTIONS:
     -h, --help       Print help information
     -V, --version    Print version information
 ```
+
+## Why the name 'nub'?!
+
+`nub` (meaning "essence") is the Haskell function that removes duplicate elements from a list:
+
+```
+Input: nub [0,1,2,3,2,1,0]
+Output: [0,1,2,3]
+``` 

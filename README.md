@@ -32,4 +32,10 @@ OPTIONS:
 ```
 Input: nub [0,1,2,3,2,1,0]
 Output: [0,1,2,3]
-``` 
+```
+
+## ToDo
+
+* Add a `--recursive` flag/feature to also apply `nub` to all subfolders and to their subfolders etc...
+* Add a `--strictRecursive` (or `--totalRecursive`) flag/feature to also delete duplicates **across** subfolders!
+* Add a `--images` flag/feature to also delete all duplicate images / image duplicates, **even** when their hashes are different.

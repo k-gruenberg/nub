@@ -38,4 +38,4 @@ Output: [0,1,2,3]
 
 * Add a `--recursive` flag/feature to also apply `nub` to all subfolders and to their subfolders etc...
 * Add a `--strictRecursive` (or `--totalRecursive`) flag/feature to also delete duplicates **across** subfolders!
-* Add a `--images` flag/feature to also delete all duplicate images / image duplicates, **even** when their hashes are different.
+* Add a `--images` flag/feature to also delete all duplicate images / image duplicates, **even** when their hashes are different. Possibly with a `--tolerance [TOLERANCE]` argument to specify how tolerant to be when comparing images for equality, `0.0` meaning all images are regarded as equal and `1.0` meaning that only the metadata of the images may be different.
